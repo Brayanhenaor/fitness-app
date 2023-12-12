@@ -1,0 +1,116 @@
+{
+  "routines": [
+    {
+      "id": "1",
+      "name": "Rutina de Acondicionamiento Físico",
+      "totalDuration": 60,
+      "category": "Entrenamiento Funcional",
+      "exercises": [
+        {
+          "id": "101",
+          "name": "Calentamiento",
+          "duration": 10,
+          "instructions": "Realiza ejercicios de calentamiento para preparar el cuerpo.",
+          "type": "Cardio",
+          "videoUrl": "https://youtu.be/CwhxepX7aR8"
+        },
+        {
+          "id": "102",
+          "name": "Sentadillas",
+          "duration": 15,
+          "instructions": "Haz 3 series de 15 repeticiones de sentadillas.",
+          "type": "Fuerza",
+          "videoUrl": "https://youtu.be/CwhxepX7aR8"
+        },
+        {
+          "id": "103",
+          "name": "Flexiones de Pecho",
+          "duration": 10,
+          "instructions": "Realiza 3 series de 10 flexiones de pecho.",
+          "type": "Fuerza",
+          "videoUrl": "https://youtu.be/CwhxepX7aR8"
+        },
+        {
+          "id": "104",
+          "name": "Plancha",
+          "duration": 15,
+          "instructions": "Mantén la posición de plancha durante 15 minutos.",
+          "type": "Fuerza",
+          "videoUrl": "https://youtu.be/CwhxepX7aR8"
+        },
+        {
+          "id": "105",
+          "name": "Estiramientos",
+          "duration": 10,
+          "instructions": "Realiza estiramientos para mejorar la flexibilidad.",
+          "type": "Flexibilidad",
+          "videoUrl": "https://youtu.be/CwhxepX7aR8"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Rutina de Cardio Intenso",
+      "totalDuration": 45,
+      "category": "Cardio",
+      "exercises": [
+        {
+          "id": "201",
+          "name": "Saltos de Tijera",
+          "duration": 15,
+          "instructions": "Realiza 3 series de 15 saltos de tijera.",
+          "type": "Cardio",
+          "videoUrl": "https://youtu.be/CwhxepX7aR8"
+        },
+        {
+          "id": "202",
+          "name": "Carrera en el Lugar",
+          "duration": 15,
+          "instructions": "Corre en el lugar a alta intensidad durante 15 minutos.",
+          "type": "Cardio",
+          "videoUrl": "https://youtu.be/CwhxepX7aR8"
+        },
+        {
+          "id": "203",
+          "name": "Burpees",
+          "duration": 15,
+          "instructions": "Completa 3 series de 10 burpees.",
+          "type": "Cardio",
+          "videoUrl": "https://youtu.be/CwhxepX7aR8"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Rutina de Yoga Relajante",
+      "totalDuration": 30,
+      "category": "Yoga",
+      "exercises": [
+        {
+          "id": "301",
+          "name": "Saludo al Sol",
+          "duration": 10,
+          "instructions": "Realiza el saludo al sol para estirar y fortalecer el cuerpo.",
+          "type": "Yoga",
+          "videoUrl": "https://youtu.be/CwhxepX7aR8"
+        },
+        {
+          "id": "302",
+          "name": "Postura del Guerrero",
+          "duration": 15,
+          "instructions": "Mantén la postura del guerrero para mejorar el equilibrio y la fuerza.",
+          "type": "Yoga",
+          "videoUrl": "https://youtu.be/CwhxepX7aR8"
+        },
+        {
+          "id": "303",
+          "name": "Meditación Guiada",
+          "duration": 5,
+          "instructions": "Realiza una meditación guiada para relajar la mente.",
+          "type": "Meditación",
+          "videoUrl": "https://youtu.be/CwhxepX7aR8"
+        }
+      ]
+    }
+  ]
+}
