@@ -1,13 +1,10 @@
-import React, { useState } from 'react'
-import { Box, Container, Grid, Typography, styled } from '@mui/material'
-import { useAppDispatch, useAppSelector } from '../../../hooks/hooks'
+import { useState } from 'react'
+import { Box, Container, Grid, styled } from '@mui/material'
+import { useAppSelector } from '../../../hooks/hooks'
 import AddOutlinedIcon from '@mui/icons-material/AddOutlined';
-import { RoutineCard } from '../../common/routinesList/RoutineCard';
 
 import { HeaderTitle } from '../../common/header/HeaderTitle';
 import { AddRoutine } from './components/AddRoutine';
-import { removeRoutine } from '../../../slices/routinesSlice';
-import { useNavigate } from 'react-router-dom';
 import { RoutinesList } from '../../common/routinesList/RoutinesList';
 
 const FloatingButton = styled(Box)({

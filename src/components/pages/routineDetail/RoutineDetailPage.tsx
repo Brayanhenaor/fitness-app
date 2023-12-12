@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import {
   Container,
@@ -21,7 +21,6 @@ import { useAppSelector } from '../../../hooks/hooks';
 import { Routine, Exercise } from '../../../domain/types/routines';
 import { HeaderTitle } from '../../common/header/HeaderTitle';
 import EditIcon from '@mui/icons-material/Edit';
-import { blue } from '@mui/material/colors';
 import { EditRoutine } from './components/EditRoutine';
 
 const CustomCard = styled(Card)(({ theme }) => ({

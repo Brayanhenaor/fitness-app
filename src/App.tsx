@@ -1,4 +1,3 @@
-import { Provider } from 'react-redux'
 import { AppRouter } from './router/AppRouter'
 import { useEffect } from 'react'
 import { useAppSelector } from './hooks/hooks'

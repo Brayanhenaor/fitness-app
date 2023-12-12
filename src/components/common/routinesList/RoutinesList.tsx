@@ -1,4 +1,3 @@
-import React from 'react'
 import { Routine } from '../../../domain/types/routines'
 import { RoutineCard } from './RoutineCard';
 import { useNavigate } from 'react-router-dom';

@@ -7,6 +7,7 @@ import { Input } from '../../common/input/Input'
 import { Routine, RoutineCategory } from '../../../domain/types/routines'
 import { useAppSelector } from '../../../hooks/hooks'
 import { RoutinesList } from '../../common/routinesList/RoutinesList'
+import { routines as routinesCategories } from '../../../utils/categories'
 
 interface Form {
   category: RoutineCategory;
@@ -23,9 +24,10 @@ export const SearchPage = () => {
   }
 
   const filter = (data: Form) => {
-    setFilteredRoutines(routines.filter(routine =>
-      routine.name.toLowerCase().includes(data.name.toLocaleLowerCase()) ||
-      routine.category === data.category))
+    console.log(data)
+    setFilteredRoutines(routines.filter(routine => (data.name != null && data.name !== "" &&
+      routine.name.toLowerCase().includes(data.name.toLocaleLowerCase())) ||
+      (data.category != null && data.category !== "" as RoutineCategory && routine.category === data.category)))
   }
 
   return (
@@ -47,7 +49,7 @@ export const SearchPage = () => {
           <Grid item xs={12}>
             <SelectInput
               register={register}
-              options={routines}
+              options={routinesCategories}
               label="Categoria"
               name="category" />
           </Grid>

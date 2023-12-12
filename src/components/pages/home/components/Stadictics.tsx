@@ -1,5 +1,4 @@
 import { Box } from '@mui/material'
-import React from 'react'
 import shoes from '../../../../assets/shoes.svg'
 
 export const Stadictics = () => {

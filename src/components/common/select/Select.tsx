@@ -1,5 +1,4 @@
 import { MenuItem, TextField } from '@mui/material'
-import React from 'react'
 
 export const SelectInput = ({ register, label, name, options }: any) => {
     return (

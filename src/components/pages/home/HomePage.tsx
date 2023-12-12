@@ -1,4 +1,4 @@
-import { Box, Container, Grid, Typography } from '@mui/material'
+import { Box, Container, Grid } from '@mui/material'
 import { Header } from './components/Header'
 import { Motivation } from './components/Motivation'
 import { Stadictics } from './components/Stadictics'

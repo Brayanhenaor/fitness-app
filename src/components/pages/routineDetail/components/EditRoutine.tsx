@@ -1,4 +1,4 @@
-import { Box, Button, Fab, Grid, Typography, styled } from '@mui/material';
+import { Box, Button, Grid, Typography, styled } from '@mui/material';
 import { useFieldArray, useForm } from 'react-hook-form';
 import Modal from 'react-modal';
 import { Input } from '../../../common/input/Input';
@@ -6,8 +6,7 @@ import { SelectInput } from '../../../common/select/Select';
 import { Subtitle } from '../../../common/subtitle/Subtitle';
 import { Routine } from '../../../../domain/types/routines';
 import { useAppDispatch } from '../../../../hooks/hooks';
-import { addRoutine, editRoutine } from '../../../../slices/routinesSlice';
-import uniqid from 'uniqid';
+import { editRoutine } from '../../../../slices/routinesSlice';
 import AddIcon from '@mui/icons-material/Add';
 import { exercices, routines } from '../../../../utils/categories';
 import { useEffect } from 'react';
